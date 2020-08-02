@@ -2,7 +2,7 @@ package ArrayFunctionAndOOP;
 
 import java.util.Scanner;
 
-public class sumColumn {
+public class SumColumn {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

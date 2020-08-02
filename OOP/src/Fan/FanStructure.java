@@ -1,9 +1,9 @@
 package Fan;
 
 class FanStructure {
-    int SLOW = 1;
-    int MEDIUM = 2;
-    int FAST = 3;
+    final int SLOW = 1;
+    final int MEDIUM = 2;
+    final int FAST = 3;
     private int speed = SLOW;
     private boolean On = false;
     private double radius = 5;

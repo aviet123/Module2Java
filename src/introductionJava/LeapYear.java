@@ -11,9 +11,12 @@ public class LeapYear {
         year = sc.nextInt();
         boolean isLeapYear = true;
 
-        if (year % 4 == 0){
-            if (year % 100 == 0){
-                if (year % 400 == 0){
+        boolean isDividedBy4 = year % 4 == 0;
+        if (isDividedBy4){
+            boolean isDividedBy100 = year % 100 == 0;
+            if (isDividedBy100){
+                boolean isDividedBy400 = year % 400 == 0;
+                if (isDividedBy400){
                     isLeapYear = true;
                 }
                 else

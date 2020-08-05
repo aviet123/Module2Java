@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/Module2Java.iml" filepath="$PROJECT_DIR$/Module2Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Refactoring/Refactoring.iml" filepath="$PROJECT_DIR$/Refactoring/Refactoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/absolute-number-calculator/absolute-number-calculator.iml" filepath="$PROJECT_DIR$/absolute-number-calculator/absolute-number-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/absolute-number-calculator/test/test.iml" filepath="$PROJECT_DIR$/absolute-number-calculator/test/test.iml" />
     </modules>
   </component>
 </project>

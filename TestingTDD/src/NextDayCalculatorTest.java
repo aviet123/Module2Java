@@ -52,6 +52,9 @@ class NextDayCalculatorTest {
         int[] expected = {1,1,2019};
 
         int[] result = NextDayCalculator.getDayMonthYear(day,month,year);
+        for (int x:result){
+            System.out.println(x);
+        }
         assertArrayEquals(expected,result);
 
     }

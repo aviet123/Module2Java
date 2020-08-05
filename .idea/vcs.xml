@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java-cleancode-refactoring-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java-cleancode-refactoring-method-extraction" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/java-cleancode-refactoring-renaming" vcs="Git" />
   </component>
 </project>

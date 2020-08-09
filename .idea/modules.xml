@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccessModifier/AccessModifier.iml" filepath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList&amp;LinkedList/ArrayList&amp;LinkedList.iml" filepath="$PROJECT_DIR$/ArrayList&amp;LinkedList/ArrayList&amp;LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterfaceAndAbstract/InterfaceAndAbstract.iml" filepath="$PROJECT_DIR$/InterfaceAndAbstract/InterfaceAndAbstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module2Java.iml" filepath="$PROJECT_DIR$/Module2Java.iml" />

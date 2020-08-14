@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccessModifier/AccessModifier.iml" filepath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrangeAlgorithmn/ArrangeAlgorithmn.iml" filepath="$PROJECT_DIR$/ArrangeAlgorithmn/ArrangeAlgorithmn.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayList&amp;LinkedList/ArrayList&amp;LinkedList.iml" filepath="$PROJECT_DIR$/ArrayList&amp;LinkedList/ArrayList&amp;LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinaryFindingAlgorithmn/BinaryFindingAlgorithmn.iml" filepath="$PROJECT_DIR$/BinaryFindingAlgorithmn/BinaryFindingAlgorithmn.iml" />
       <module fileurl="file://$PROJECT_DIR$/CollectionFramework/CollectionFramework.iml" filepath="$PROJECT_DIR$/CollectionFramework/CollectionFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception/Exception.iml" filepath="$PROJECT_DIR$/Exception/Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOTextFile/IOTextFile.iml" filepath="$PROJECT_DIR$/IOTextFile/IOTextFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterfaceAndAbstract/InterfaceAndAbstract.iml" filepath="$PROJECT_DIR$/InterfaceAndAbstract/InterfaceAndAbstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module2Java.iml" filepath="$PROJECT_DIR$/Module2Java.iml" />
@@ -13,6 +17,8 @@
       <module fileurl="file://$PROJECT_DIR$/StackAndQueue/StackAndQueue.iml" filepath="$PROJECT_DIR$/StackAndQueue/StackAndQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestingTDD/TestingTDD.iml" filepath="$PROJECT_DIR$/TestingTDD/TestingTDD.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestingTDD/test/test.iml" filepath="$PROJECT_DIR$/TestingTDD/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled1/untitled1.iml" filepath="$PROJECT_DIR$/untitled1/untitled1.iml" />
     </modules>
   </component>
 </project>

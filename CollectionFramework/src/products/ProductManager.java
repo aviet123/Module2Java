@@ -25,7 +25,11 @@ public class ProductManager {
                     long price = Integer.parseInt(scanner.nextLine());
                     System.out.println("nhập tên product: ");
                     String name = scanner.nextLine();
-                    method.add(id,price,name);
+                    System.out.println("nhập tên brand: ");
+                    String brand = scanner.nextLine();
+                    System.out.println("nhập tên Information: ");
+                    String otherInfor = scanner.nextLine();
+                    method.add(id,price,name,brand,otherInfor);
                     break;
                 case 2:
                     System.out.println("nhập idchange: ");

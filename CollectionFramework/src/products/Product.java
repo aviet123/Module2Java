@@ -6,7 +6,7 @@ public class Product implements Comparable<Product> {
     private long price;
     private String name;
 
-    public Product(){
+    public Product(int id, long price, String name, String brand, String otherInfor){
         
     }
     public Product(int id) {

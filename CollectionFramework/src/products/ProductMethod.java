@@ -6,10 +6,9 @@ import java.util.Scanner;
 
 public class ProductMethod {
     ArrayList<Product> list = new ArrayList<>();
-    Product product = new Product();
     Scanner input = new Scanner(System.in);
-    public void add(int id, long price, String name){
-        list.add(new Product(id,price,name));
+    public void add(int id, long price, String name,String brand,String otherInfor){
+        list.add(new Product(id,price,name,brand,otherInfor));
         Collections.sort(list);
     }
     public boolean remove(int id){

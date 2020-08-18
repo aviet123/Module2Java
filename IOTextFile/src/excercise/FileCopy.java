@@ -19,6 +19,7 @@ public class FileCopy {
             }
             System.out.println("file is copied successfully");
             //đọc file
+
             BufferedReader reader = new BufferedReader(new FileReader(fileCopy));
             int count = 0;
             String line = "";

@@ -5,67 +5,63 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ProductManager {
-        public static void main(String[] args) throws Exception {
+        public static void main(String[] args) {
             ArrayList<Product> list = new ArrayList<>();
-            int choice=-1;
-            while (choice!= 0){
-                Scanner scanner = new Scanner(System.in);
-                System.out.println("Menu");
-                System.out.println("1. Add");
-                System.out.println("2. Remove");
-                System.out.println("3. Show");
-                System.out.println("4. Search");
-                System.out.println("5. Exit");
-                System.out.println("Enter your choice: ");
-                choice = Integer.parseInt(scanner.nextLine());
-                switch (choice){
-                    case 1:
-                        System.out.println("nhập id: ");
-                        int id = Integer.parseInt(scanner.nextLine());
-                        System.out.println("nhập price: ");
-                        long price = Integer.parseInt(scanner.nextLine());
-                        System.out.println("nhập tên product: ");
-                        String name = scanner.nextLine();
-                        System.out.println("nhập tên brand: ");
-                        String brand = scanner.nextLine();
-                        System.out.println("nhập product Information: ");
-                        String informationPr = scanner.nextLine();
-                        list.add(new Product(id,name,price,brand,informationPr));
-                        break;
-                    case 2:
-                        System.out.println("nhập id: ");
-                        int id1 = Integer.parseInt(scanner.nextLine());
-                        for (Product product: list){
-                            if (product.getId()==id1){
-                                list.remove(product);
-                                return;
-                            }
-                        }
-                        break;
-                    case 3:
-                        for (Product product: list){
-                                System.out.println(product.toString());
-                            }
-                        break;
-                    case 4:
-                        System.out.println("nhập tên: ");
-                        String nameProduct = scanner.nextLine();
-                        for (Product product: list){
-                        if (nameProduct.equals(product.getName())){
-                                System.out.println(product.toString());
-                            }
-                         }
-                        writeSearchingToFile(list,nameProduct);
-                        break;
-                    case 5:
-                        writeProductToFile(list);
-                        readProduct(list);
-                        return;
-                    default:
-                        throw new Exception("product can not be found!! ");
+            ProductController controller = new ProductController();
+            int choice;
+            while (true){
+                    Scanner scanner = new Scanner(System.in);
+                    System.out.println("Menu");
+                    System.out.println("1. Add");
+                    System.out.println("2. Edit");
+                    System.out.println("3. Remove");
+                    System.out.println("4. Show");
+                    System.out.println("5. Search");
+                    System.out.println("6. Exit");
+                    System.out.println("Enter your choice: ");
+                    choice = Integer.parseInt(scanner.nextLine());
+                    switch (choice){
+                        case 1:
+                            System.out.println("nhập id: ");
+                            int id = Integer.parseInt(scanner.nextLine());
+                            System.out.println("nhập price: ");
+                            long price = Integer.parseInt(scanner.nextLine());
+                            System.out.println("nhập tên product: ");
+                            String name = scanner.nextLine();
+                            System.out.println("nhập tên brand: ");
+                            String brand = scanner.nextLine();
+                            System.out.println("nhập product Information: ");
+                            String informationPr = scanner.nextLine();
+                            controller.add(id,price,name,brand,informationPr,list);
+                            break;
+                        case 2:
+                            System.out.println("nhập id cần update: ");
+                            int id2 = Integer.parseInt(scanner.nextLine());
+                            controller.updateProduct(id2,list);
+
+                        case 3:
+                            System.out.println("nhập id: ");
+                            int id1 = Integer.parseInt(scanner.nextLine());
+                            controller.remove(id1,list);
+                            break;
+                        case 4:
+                            controller.showAll(list);
+                            readProduct(list);
+                            break;
+                        case 5:
+                            System.out.println("nhập tên: ");
+                            String nameProduct = scanner.nextLine();
+                            controller.searchProduct(nameProduct,list);
+                            writeSearchingToFile(list,nameProduct);
+                            break;
+                        case 6:
+                            writeProductToFile(list);
+                            readProduct(list);
+                            return;
+                    }
                 }
             }
-        }
+
         public static void writeProductToFile(ArrayList<Product> array){
             String filename = "D:/Count.txt";
             File source = new File(filename);

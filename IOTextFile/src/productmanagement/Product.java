@@ -18,18 +18,10 @@ public class Product implements Comparable<Product>, Serializable {
             this.otherInformation = otherInformation;
         }
 
-        public Product(int id, long price, String name, String brand, String information){
-
-        }
         public Product(int id) {
             this.id = id;
         }
 
-        public Product(int id, String name,long price) {
-            this.id = id;
-            this.price = price;
-            this.name = name;
-        }
 
         public int getId() {
             return id;

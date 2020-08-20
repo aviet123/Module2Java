@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/ArrayList&amp;LinkedList/ArrayList&amp;LinkedList.iml" filepath="$PROJECT_DIR$/ArrayList&amp;LinkedList/ArrayList&amp;LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinaryFindingAlgorithmn/BinaryFindingAlgorithmn.iml" filepath="$PROJECT_DIR$/BinaryFindingAlgorithmn/BinaryFindingAlgorithmn.iml" />
       <module fileurl="file://$PROJECT_DIR$/CollectionFramework/CollectionFramework.iml" filepath="$PROJECT_DIR$/CollectionFramework/CollectionFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exception/Exception.iml" filepath="$PROJECT_DIR$/Exception/Exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOTextFile/IOTextFile.iml" filepath="$PROJECT_DIR$/IOTextFile/IOTextFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
@@ -16,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/Refactoring/Refactoring.iml" filepath="$PROJECT_DIR$/Refactoring/Refactoring.iml" />
       <module fileurl="file://$PROJECT_DIR$/Regex/Regex.iml" filepath="$PROJECT_DIR$/Regex/Regex.iml" />
       <module fileurl="file://$PROJECT_DIR$/StackAndQueue/StackAndQueue.iml" filepath="$PROJECT_DIR$/StackAndQueue/StackAndQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StructuralDesignPattern/StructuralDesignPattern.iml" filepath="$PROJECT_DIR$/StructuralDesignPattern/StructuralDesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestingTDD/TestingTDD.iml" filepath="$PROJECT_DIR$/TestingTDD/TestingTDD.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestingTDD/test/test.iml" filepath="$PROJECT_DIR$/TestingTDD/test/test.iml" />

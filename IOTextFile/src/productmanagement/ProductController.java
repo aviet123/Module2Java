@@ -10,14 +10,13 @@ public class ProductController  {
         list.add(new Product(id,name,price,brand,information));
         Collections.sort(list);
     }
-    public boolean remove(int id,ArrayList<Product> list){
+    public void remove(int id, ArrayList<Product> list){
         for (Product product: list){
             if (id == product.getId()){
                 list.remove(product);
-                return true;
+                return;
             }
         }
-        return false;
     }
     public void showAll(ArrayList<Product> list){
         for (Product product: list){
